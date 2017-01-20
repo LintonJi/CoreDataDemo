@@ -13,6 +13,7 @@
 		4DA855A31E30684D009F1CB6 /* MyDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DA855A11E30684D009F1CB6 /* MyDemo.xcdatamodeld */; };
 		4DA855A51E30684D009F1CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA855A41E30684D009F1CB6 /* Assets.xcassets */; };
 		4DA855A81E30684D009F1CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA855A61E30684D009F1CB6 /* LaunchScreen.storyboard */; };
+		4DA855B11E31EA76009F1CB6 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA855B01E31EA76009F1CB6 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4DA855A41E30684D009F1CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA855A71E30684D009F1CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA855A91E30684D009F1CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA855B01E31EA76009F1CB6 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		4DA855991E30684D009F1CB6 /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4DA8559A1E30684D009F1CB6 /* AppDelegate.swift */,
 				4DA8559C1E30684D009F1CB6 /* ViewController.swift */,
+				4DA855B01E31EA76009F1CB6 /* DataStore.swift */,
+				4DA855A11E30684D009F1CB6 /* MyDemo.xcdatamodeld */,
+				4DA855AF1E31E9FE009F1CB6 /* Supporting */,
+			);
+			path = MyDemo;
+			sourceTree = "<group>";
+		};
+		4DA855AF1E31E9FE009F1CB6 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				4DA8559A1E30684D009F1CB6 /* AppDelegate.swift */,
 				4DA8559E1E30684D009F1CB6 /* Main.storyboard */,
 				4DA855A41E30684D009F1CB6 /* Assets.xcassets */,
 				4DA855A61E30684D009F1CB6 /* LaunchScreen.storyboard */,
 				4DA855A91E30684D009F1CB6 /* Info.plist */,
-				4DA855A11E30684D009F1CB6 /* MyDemo.xcdatamodeld */,
 			);
-			path = MyDemo;
+			name = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA8559D1E30684D009F1CB6 /* ViewController.swift in Sources */,
+				4DA855B11E31EA76009F1CB6 /* DataStore.swift in Sources */,
 				4DA855A31E30684D009F1CB6 /* MyDemo.xcdatamodeld in Sources */,
 				4DA8559B1E30684D009F1CB6 /* AppDelegate.swift in Sources */,
 			);
@@ -305,6 +317,7 @@
 				4DA855AE1E30684D009F1CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
