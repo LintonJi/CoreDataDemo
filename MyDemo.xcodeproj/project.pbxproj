@@ -60,7 +60,6 @@
 			children = (
 				4DA8559C1E30684D009F1CB6 /* ViewController.swift */,
 				4DA855B01E31EA76009F1CB6 /* DataStore.swift */,
-				4DA855A11E30684D009F1CB6 /* MyDemo.xcdatamodeld */,
 				4DA855AF1E31E9FE009F1CB6 /* Supporting */,
 			);
 			path = MyDemo;
@@ -74,6 +73,7 @@
 				4DA855A41E30684D009F1CB6 /* Assets.xcassets */,
 				4DA855A61E30684D009F1CB6 /* LaunchScreen.storyboard */,
 				4DA855A91E30684D009F1CB6 /* Info.plist */,
+				4DA855A11E30684D009F1CB6 /* MyDemo.xcdatamodeld */,
 			);
 			name = Supporting;
 			sourceTree = "<group>";
